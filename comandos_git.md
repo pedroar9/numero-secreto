@@ -59,6 +59,7 @@ ou
 `git switch -c nova-funcionalidade`
 
 ---
+
 Link para testar comandos git
 https://git-school.github.io/visualizing-git
 
