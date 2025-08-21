@@ -59,6 +59,10 @@ ou
 `git switch -c nova-funcionalidade`
 
 ---
+Link para testar comandos git
+https://git-school.github.io/visualizing-git/
+
+---
 
 ### Entenda os comandos git restore e switch
 https://unibb.alura.com.br/extra/alura-mais/entenda-os-comandos-git-restore-e-switch-c99
