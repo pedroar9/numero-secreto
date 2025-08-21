@@ -86,3 +86,25 @@ ele apenas remove o item da stash, sem aplicá-lo em nosso repositório. Dessa f
 enquanto o `git stash drop 1` remove da stash o item com índice 1.
 
 ---
+
+Mostrar todas as tags que tem no repositório
+`git tag`
+
+Criar tag no repositório
+`git tag v0.1.0`
+
+Enviar tag para repositório remoto
+ao enviar para o repositório remoto será criado versões para baixar em .zip e .tar.gz
+`git push origin v0.1.0`
+
+Enviar todas as tags para o repositório remoto
+`git push origin --tags`
+
+Deletar tag espécifica
+`git tag -d v0.1.1`
+
+Acrescentar anotação na tag escolhida
+`git tag -a v0.1.1 -m "Lançamento da versão v0.1.1`
+
+Verificar mais informações sobre a tag criada
+git tag -v v0.1.1
