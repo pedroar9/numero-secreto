@@ -60,7 +60,7 @@ ou
 
 ---
 Link para testar comandos git
-https://git-school.github.io/visualizing-git/
+https://git-school.github.io/visualizing-git
 
 ---
 
