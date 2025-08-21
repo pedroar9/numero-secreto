@@ -1,11 +1,11 @@
 ## Comandos Git
 
 Visualizar nossa lista de commits, o registro de versionamento.
-Para sair dessa visualização do 'git log', simplesmente pressionamos a tecla "q"
+Para sair dessa visualização do `git log`, simplesmente pressionamos a tecla `q`
 `git log`
 
 
-permitirá visualizar o log de commits de forma muito mais resumida.
+Permitirá visualizar o log de commits de forma muito mais resumida.
 `git log --oneline`
 
 vai nos fornecer, além das informações padrão, o hash completo, o autor ou autora, a data e a mensagem do commit.
@@ -29,7 +29,6 @@ Temos um manual, uma ajuda desse comando.
 ---
 
 `git log --oneline` e copiar o hash da alteração escolhida e inserir no comando `git show hash`
-
 `git show 5880fc1`
 
 ---
