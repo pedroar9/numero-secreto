@@ -83,3 +83,5 @@ ele também o remove de lá. Esse comando, sem nenhum parâmetro extra, vai apli
 O `git stash drop` funciona exatamente como o `pop`, mas com uma simples diferença:
 ele apenas remove o item da stash, sem aplicá-lo em nosso repositório. Dessa forma, `git stash drop` remove o último item adicionado à stash,
 enquanto o `git stash drop 1` remove da stash o item com índice 1.
+
+---
