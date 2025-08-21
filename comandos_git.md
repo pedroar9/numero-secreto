@@ -8,7 +8,7 @@ Para sair dessa visualização do `git log`, simplesmente pressionamos a tecla `
 Permitirá visualizar o log de commits de forma muito mais resumida.
 `git log --oneline`
 
-vai nos fornecer, além das informações padrão, o hash completo, o autor ou autora, a data e a mensagem do commit.
+Nos fornece, além das informações padrão, o hash completo, o autor ou autora, a data e a mensagem do commit.
 `git log -p`
 
 ---
@@ -48,10 +48,12 @@ podemos usar o comando `git branch -d` seguido do nome da branch que queremos re
 Basta digitar o comando git branch seguido do nome do ramo que queremos trabalhar.
 `git branch gramatica`
 
+---
+
 Alternando entre branches
 `git checkout gramatica`
 
-se quisermos criar uma branch e já mover para ela, podemos usar dois comandos.
+Para criar uma branch e já mover para ela, podemos usar dois comandos.
 `git checkout -b nova-funcionalidade`
 ou
 `git switch -c nova-funcionalidade`
