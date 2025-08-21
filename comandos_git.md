@@ -96,15 +96,20 @@ Criar tag no repositório
 Enviar tag para repositório remoto
 ao enviar para o repositório remoto será criado versões para baixar em .zip e .tar.gz
 `git push origin v0.1.0`
+ou
+`git push origin --force v0.1.2`
 
 Enviar todas as tags para o repositório remoto
 `git push origin --tags`
 
 Deletar tag espécifica
 `git tag -d v0.1.1`
+ou
+`git tag -d v0.1.2`
 
 Acrescentar anotação na tag escolhida
 `git tag -a v0.1.1 -m "Lançamento da versão v0.1.1`
+`git tag -a v0.1.2 -m "Lançamento da versão v0.1.2`
 
 Verificar mais informações sobre a tag criada
-git tag -v v0.1.1
+`git tag -v v0.1.1`
